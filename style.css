@@ -1,0 +1,230 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}*/ 
+ span a
+{
+text-decoration: none;
+color: #3b5998;
+}  
+.picture{
+    float: left;
+}
+
+img.back{
+    height: 800px;
+    width: 500px;
+    margin: 0px 10px 20px 150px;
+   
+}
+img.up{
+    height:620px;
+    width: 350px;
+    border-radius: 27px;
+    position: absolute;
+    top: 230px;
+    left: 230px; 
+}
+img.front{
+    height:900px;
+    width: 500px;
+    border-radius: 25px;
+    position: absolute;
+    top: 50px;
+    left: 300px; 
+   
+    
+}
+ .front{
+   
+    background-repeat: no-repeat;
+    background-size: 380px 700px ;
+    background-position: 65px ;
+    transition: 5s;
+    animation-name: animate ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   
+     
+     
+ } 
+ @keyframes animate{ 
+    0%{
+        background-image:url("./images/profile.jpg") ;
+    
+    }
+    25%{
+        background-image: url("./images/noti.jpg");
+    }
+    50%{
+        background-image:url("./images/msg.jpg") ;
+    }
+    75%{
+        background-image: url("./images/post.jpg");
+    }
+    100%{
+        background-image:url("./images/edit.jpg") ;
+    }
+    
+   
+}
+
+
+
+
+/*second part*/
+
+
+      .box {
+        width: 380px; 
+        height: 400px;
+        margin: 130px auto;
+        margin-left: 1000px;
+        border: 2px solid #d8d5d5;
+        padding: 50px 50px;
+      
+      }
+      .heading {
+        margin: 20px 90px 60px;
+        background-image: url("ig.png");
+        height: 60px;
+        width: 177px;
+    
+      }
+      
+      .field {
+        
+        position: relative;
+        font-size: 14px;
+     
+      }
+      
+       input {
+        padding: 15px 0px 7px 9px;
+        font-size: 12px;
+        width: 23rem;
+        border-radius: 2px;
+        border: 1px solid #efefef;
+  
+      } 
+      #username,#password{
+        margin-bottom: 10px;
+      }
+
+      .login-button {
+          margin-top: 20px;
+        width: 100%;
+        padding: 0.5rem;
+        border: 1px solid transparent;
+        background-color: #3897f0;
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+    
+      }
+     
+      
+
+      .separator {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #999;
+        margin-top: 6px;
+      }
+      
+      .separator .line {
+        height: 1px;
+        width: 40%;
+        background-color: #dbdbdb;
+      }
+
+      /*down box part*/
+      
+      .other {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .fb-login-btn {
+        margin: 1rem;
+        border: 0;
+        cursor: pointer;
+        font-size: 16px;
+        color: #385185;
+        font-weight: 600;
+        background: transparent;
+        align-items: center;
+        text-align: center;
+
+      }
+      .fb-login-btn a {
+    text-decoration: none;
+    color: #385185;
+    
+
+}
+      
+.fb-login-btn i {
+    font-size: 17.9px;
+    
+
+}
+      
+      .forgot-password {
+        font-size: 15px;
+        color: #003569;
+      }
+      
+     
+      .sub{
+         width: 380px; 
+         margin-left: 1000px;
+         border: 2px solid #d8d5d5;
+         padding:1rem 3rem;
+         display: grid;
+         place-items: center;
+      }
+
+      .signup {
+        color: #3897f0;
+        font-weight: 600;
+        
+      }
+      .sub>p{
+        font-size: 17px;
+      }
+ 
+
+      
+      .box,.sub{
+          margin-bottom: 20px;
+      }
+    
+      .last{
+        margin-left: 1200px;
+        color: rgb(49, 48, 48);
+        font-size: 19px;
+        font-weight: 10px;
+      }
+      .fi,.se{
+        height: 200px;
+        width: 200px;
+      }
+      .row{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        margin-left: 1050px;
+        margin-top: -60px;
+      }
+        
+  
+        
+
+  
+ 
